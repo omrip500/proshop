@@ -2,7 +2,7 @@
 
 ## Description
 
-ProShop is your go-to e-commerce destination, dedicated to offering a diverse array of cutting-edge electronic products. Dive into a world of innovation and quality, where your tech needs meet exceptional shopping experiences.
+ProShop is a cutting-edge e-commerce platform specializing in electronics. With a user-friendly interface, our platform offers a diverse range of electronic products, providing a seamless online shopping experience for tech enthusiasts. Explore the latest gadgets and electronics, all conveniently accessible in one place at ProShop.
 
 ## Deployment
 
@@ -46,14 +46,18 @@ The application is deployed at [https://www.omrishop.com/](https://www.omrishop.
 
 ## Environment Variables
 
+
+## Environment Variables
+````bach
 NODE_ENV=development
 PORT=5000
+PAGINATION_LIMIT=8
 MONGO_URI=YOUR_MONGO_URI
 JWT_SECRET=YOUR_JWT_SECRET
 PAYPAL_CLIENT_ID=YOUR_PAYPAL_CLIENT_ID
-PAGINATION_LIMIT=8
 PAYPAL_APP_SECRET=YOUR_PAYPAL_APP_SECRET
 PAYPAL_API_URL=YOUR_PAYPAL_APP_URI
+````
 
 ## Install Dependencies (frontend & backend)
 
