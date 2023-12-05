@@ -97,7 +97,7 @@ _User Profile Page_
 _Admin Panel - Products_
 
 ![Screenshot 6](screenshots/adminUsers.png)
-\_Admin Panel - Users
+Admin Panel - Users
 
 ![Screenshot 6](screenshots/adminOrders.png)
 _Admin Panel - Orders_
