@@ -44,8 +44,6 @@ The application is deployed at [https://www.omrishop.com/](https://www.omrishop.
 - **React-Bootstrap:** A front-end framework for developing responsive and mobile-first applications.
 - **JWT (JSON Web Tokens):** A secure and compact way to transmit information between parties.
 
-## Environment Variables
-
 
 ## Environment Variables
 ````bach
@@ -78,7 +76,6 @@ npm run server
 ```
 
 ## Screenshots
-
 ![Screenshot 1](screenshots/screenshot1.png)
 _Home Screen_
 
