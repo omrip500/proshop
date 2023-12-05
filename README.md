@@ -93,11 +93,14 @@ _Purchase Page_
 ![Screenshot 6](screenshots/screenshot4.png)
 _User Profile Page_
 
-![Screenshot 6](screenshots/adminProducts.png)
-_Admin Panel - Products_
-
-![Screenshot 6](screenshots/adminUsers.png)
+![Screenshot 7](screenshots/adminUsers.png)
 Admin Panel - Users
 
-![Screenshot 6](screenshots/adminOrders.png)
+![Screenshot 8](screenshots/adminOrders.png)
 _Admin Panel - Orders_
+
+![Screenshot 9](screenshots/adminProducts.png)
+_Admin Panel - Products_
+
+![Screenshot 9](screenshots/adminMarkAsDelivered.png)
+\_Admin Panel - Mark As Delivered
