@@ -24,6 +24,7 @@ import { addToCart } from "../slices/cartSlice";
 
 function ProductScreen() {
   const { id: productId } = useParams();
+  console.log(productId);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -63,7 +64,7 @@ function ProductScreen() {
 
   return (
     <>
-      {!isLoading && (
+      {!isLoading && !error && (
         <Meta title={product.name} description={product.description} />
       )}
       <Link className="btn btn-light my-3" to="/">

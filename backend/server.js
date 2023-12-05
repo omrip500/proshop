@@ -35,10 +35,10 @@ const __dirname = path.resolve(); // set __dirname to the current directory
 app.use("/uploads", express.static(path.join(__dirname, "/uploads"))); // Make the uploads folder static, when we say make the folder static, we mean that we can load the files inside the folder directly without having to create a route for it. Otherwise, we would have to create a route for it and then load the file in the route.
 
 if (process.env.NODE_ENV === "production") {
-  // Set the frontend build folder as static, despite the fact that we have a route for it in the frontend, we still need to set it as static in the backend
+  // Set the frontend build folder as static, setting it static means that we can load the files inside the folder directly without having to create a route for it. Otherwise, we would have to create a route for it and then load the file in the route.
   app.use(express.static(path.join(__dirname, "/frontend/build")));
 
-  // If the user goes to any route that is not defined, then load the index.html file
+  // If the user goes to any route that is not defined, hw wil be sent to the index.html file in the frontend build folder, there he will be served the frontend.
   app.get("*", (req, res) =>
     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
   );
