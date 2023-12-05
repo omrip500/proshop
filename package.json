@@ -11,8 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-  },
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"   },
   "author": "Omri Pinchasov",
   "license": "MIT",
   "dependencies": {
@@ -30,3 +29,5 @@
     "nodemon": "^3.0.1"
   }
 }
+
+
