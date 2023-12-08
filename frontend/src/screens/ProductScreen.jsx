@@ -46,6 +46,7 @@ function ProductScreen() {
 
   const addToCartHandler = () => {
     dispatch(addToCart({ ...product, qty }));
+    navigate("/");
   };
 
   const submitHandler = async (e) => {
