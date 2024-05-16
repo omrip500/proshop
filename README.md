@@ -6,7 +6,7 @@ ProShop is a cutting-edge e-commerce platform specializing in electronics. With 
 
 ## Deployment
 
-The application is deployed at [https://www.omrishop.com/](https://www.omrishop.com/).
+The application is deployed at [https://www.omrishop.com/]([https://www.omrishop.com/])).
 
 ## Features
 
